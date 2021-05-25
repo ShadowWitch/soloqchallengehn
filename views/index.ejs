@@ -15,6 +15,7 @@
                     <th class="columnas_tr" scope="col">Partidas</th>
                     <th class="columnas_tr" scope="col">Ganadas</th>
                     <th class="columnas_tr" scope="col">Perdidas</th>
+                    <th class="columnas_tr" scope="col">Win Rate</th>
                     <th class="columnas_tr" scope="col">OP.GG</th>
                 </tr>
             </thead>
@@ -45,7 +46,8 @@
                             </td>
                             <td class="partidas_jugadas"><%= (wins + losses) %> </td>
                             <td class="ganadas"><%= wins %> </td>
-                            <td  class="losses"><%= losses %> </td>
+                            <td class="losses"><%= losses %> </td>
+                            <td class="winrates"><%= `${Math.round((wins / (wins + losses)) * 100)}%` %> </td>
                             <td>
                                 <a href="<%= opgg %>" target="_blank">
                                     <img class="img_invocador" src="/img/gg.png" alt="">
