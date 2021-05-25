@@ -21,7 +21,7 @@ const port = process.env.PORT || 3000;
 
 const participantes = [
     {
-        jugador: "Don Palote",
+        jugador: "Jorge Reyes",
         rol: "sup",
         opgg: "https://lan.op.gg/summoner/userName=hagert",
         id: 'l7vvQ8liJhwZx7AjsxRmGzy8qtymarI2FLkpZaiGTK7kpQ',
