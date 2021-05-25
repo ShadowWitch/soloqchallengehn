@@ -1,0 +1,36 @@
+
+.select_theme_light{
+    transition: .5s ease;
+    background: rgb(255, 255, 255);
+}
+
+.body_theme_light{
+    transition: .5s ease;
+    background: #fff;
+}
+
+
+.navbar_theme_light{
+    transition: .5s ease;
+    background: #fff;
+    border-bottom: 1px solid rgb(223, 221, 221);
+}
+
+.itemnavbar_theme_light{
+    transition: 0.5s ease;
+    background: rgb(255, 255, 255);
+    border: 1px rgb(209, 207, 207) solid;
+}
+
+.itemnavbar_theme_light:hover{
+    background: rgb(209, 205, 205);
+}
+
+
+/* Footer */
+.footer_container_theme_light{
+    transition: 0.5s ease;
+    background: #fff;
+    border: 1px rgb(209, 207, 207) solid;
+}
+

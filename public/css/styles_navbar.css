@@ -1,0 +1,153 @@
+.navbar_styles{
+    background: #1b2122;
+}
+
+.elements_navbar{
+    color: rgb(163, 159, 159);
+    font-size: 1rem;
+}
+
+.elements_navbar:hover{
+    color: rgb(163, 159, 159);
+}
+
+.img_navbar{
+    width: 60px;
+    height:50px;
+}
+
+.select_navbar{
+    all: unset;
+    background: #323333;
+    border: 1px solid gray;
+    color: rgb(163, 159, 159);
+    border-radius: .2rem;
+    outline: none;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.arrow_style{
+    color: rgb(163, 159, 159);
+    position: absolute;
+    margin-left: 5rem;
+    margin-top: 0.5rem;
+    font-size: 0.7rem;
+}
+
+.item_navbar{
+    background: #1b2122;
+    flex-direction: column;
+    border-radius: 0.7rem;
+}
+
+.item_navbar:hover{
+    transition: ease .2s;
+    background: #323333;
+    cursor: pointer;
+}
+
+.icon_clasificacion{
+    /* background: red; */
+    /* text-align: center; */
+    font-size: 1.3rem;
+}
+
+.firts_element_navbar{
+    text-decoration: none;
+}
+
+.firts_element_navbar:hover{
+    text-transform: none;
+}
+
+.firts_element_navbar:hover{
+    text-decoration: none;
+}
+
+
+/* Colores y Temas */
+
+.themes{
+    font-size: 1.7rem;
+}
+
+    /* Moon */
+.moon_style{
+    color: rgb(39, 78, 92);
+}
+.moon_style:hover{
+    cursor: pointer;
+    transition: ease .2s;
+    color: rgb(65, 131, 155);
+}
+
+    /* Sun */
+.sun_style{
+    color: rgb(155, 155, 20);
+}
+.sun_style:hover{
+    cursor: pointer;
+    transition: ease .2s;
+    color: rgb(197, 197, 25);
+}
+
+
+.container_redes_sociales_navbar{
+    display: flex;
+}
+
+.red_url{
+    text-decoration: none;
+}
+
+.redes_navbar{
+    font-size: 1.5rem;
+    
+}
+
+    /* Twitch */
+.redes_navbar_twitch{
+    color: slateblue;
+}
+.redes_navbar_twitch:hover{
+    transition: ease .2s;
+    color: rgb(133, 115, 255);
+    /* font-size: 1.7rem; */
+    margin-top: -1rem;
+}
+
+    /* Facebook */
+.redes_navbar_facebook{
+    color: steelblue;
+}
+.redes_navbar_facebook:hover{
+    transition: ease .2s;
+    color: rgb(98, 181, 248);
+    margin-top: -1rem;
+}
+
+    /* Instagram */
+.redes_navbar_ig{
+    color: rgb(189, 97, 22);
+}
+.redes_navbar_ig:hover{
+    transition: ease .2s;
+    color: rgb(250, 130, 32);
+    margin-top: -1rem;
+}
+
+
+
+/* Fin Colores y Temas */
+
+
+
+
+
+
+
+
+
+
+/* qwe */

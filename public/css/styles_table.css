@@ -1,0 +1,40 @@
+
+.tabla_style{
+    border-radius: 5px;
+    color: rgb(184, 179, 179);
+}
+
+.columnas_tr{
+    border-right: 1px solid gray;
+    color: rgb(163, 159, 159);
+}
+
+.img_jugador{
+    width: 40px;
+    height: 40px;
+
+}
+
+.img_elo{
+    width: 40px;
+    height: 40px;
+}
+
+.img_invocador{
+    width: 40px;
+    height: 40px;
+}
+
+.losses{
+    color: rgb(248, 76, 76);
+}
+
+.ganadas{
+    color: rgb(9, 182, 9);
+}
+
+.partidas_jugadas{
+    color: rgb(163, 159, 159);
+}
+
+/* qwe */

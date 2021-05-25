@@ -1,0 +1,36 @@
+
+
+.footer_container{
+    border-radius: 5px;
+    width: 82%;
+}
+
+.text_footer{
+    font-size: .9rem;
+    font-weight: lighter;
+    color: rgb(184, 179, 179);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.enlace_shadow{
+    color:#ff497c;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.enlace_shadow:hover{
+    text-decoration: none;
+    color: #ff497c;
+}
+
+.enlace_soloQFooter{
+    text-decoration: none;
+}
+
+.enlace_soloQFooter:hover{
+    text-decoration: none;
+}
+
+
+
+/* qwe */

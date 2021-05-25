@@ -1,0 +1,80 @@
+
+
+<%- include('templates/cabecera', {tituloWeb: "SoloQChallenge HN :: Inicio"}) %>
+
+    <div class="container mt-2">
+
+        <table class="table table-striped table-dark tabla_style" id="table">
+            <thead>
+                <tr>
+                    <th class="columnas_tr" scope="col">#</th>
+                    <th class="columnas_tr" scope="col">Jugador</th>
+                    <th class="columnas_tr" scope="col">Rol</th>
+                    <th class="columnas_tr" scope="col">Cuenta</th>
+                    <th class="columnas_tr" scope="col">Elo</th>
+                    <th class="columnas_tr" scope="col">Partidas</th>
+                    <th class="columnas_tr" scope="col">Ganadas</th>
+                    <th class="columnas_tr" scope="col">Perdidas</th>
+                    <th class="columnas_tr" scope="col">OP.GG</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                <% if (resultado_datos) { %>
+
+                    <% resultado_datos.forEach(elementos => { %>
+                        <% const {rol, jugador, opgg, tier, rank, summonerName, leaguePoints, wins, losses, inactive, profileIconId} = elementos; %>
+                        <% const img_tier = tier.toLowerCase() %> 
+
+                        <tr>
+                            <th scope="row">*</th>
+                            <td>
+                                <span><%= jugador %> </span>
+                            </td>
+                            <td>
+                                <img src="/img/<%= rol %>.png" alt="<%= rol %>">
+                            </td>
+                            <td>
+                                <img src="https://ddragon.leagueoflegends.com/cdn/10.6.1/img/profileicon/<%= profileIconId %>.png" class="img_invocador rounded-circle" alt="">
+                                <%= summonerName %>
+                            </td>
+                            <td>
+                                <!-- <img src="/img/diamante.png" class="img_elo" alt=""> -->
+                                <img class="img_invocador" src="/img/<%= img_tier %>.png" alt="">
+                                <span><%= `${tier} ${rank} (${leaguePoints} LP)` %> </span>
+                            </td>
+                            <td class="partidas_jugadas"><%= (wins + losses) %> </td>
+                            <td class="ganadas"><%= wins %> </td>
+                            <td  class="losses"><%= losses %> </td>
+                            <td>
+                                <a href="<%= opgg %>" target="_blank">
+                                    <img class="img_invocador" src="/img/gg.png" alt="">
+                                </a>
+                            </td>
+                        </tr>
+                    <% }) %>
+
+                    
+                <% } %>
+                
+                
+                
+            </tbody>
+        </table>
+
+    </div>
+
+    
+    
+    
+
+<%- include('templates/footer') %>
+    
+
+
+
+
+
+
+
+<!-- qwe -->
