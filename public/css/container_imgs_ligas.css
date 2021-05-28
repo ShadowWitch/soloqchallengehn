@@ -11,6 +11,11 @@
     height: 140px;
 }
 
+.imgs_container_ligas:hover{
+    transition: ease-in .2s;
+    margin-top: -15px;
+    cursor: pointer;
+}
 
 
 
