@@ -10,6 +10,8 @@ const body = document.getElementById('body')
 
 const footer_container = document.getElementById('footer_container')
 
+const ganador_div_theme = document.getElementById('ganador_div')
+
 btn_sun.addEventListener('click', () =>{
 
     if(!navbar.classList.contains('navbar_theme_light')){
@@ -43,8 +45,12 @@ btn_sun.addEventListener('click', () =>{
 
     if(!footer_container.classList.contains('footer_container_theme_light')){
         footer_container.classList.add('footer_container_theme_light')
-    }
+    }ganador_div_theme
 
+
+    if(!ganador_div_theme.classList.contains('ganador_div_theme_light')){
+        ganador_div_theme.classList.add('ganador_div_theme_light')
+    }
 
 
 })
@@ -81,6 +87,10 @@ btn_moon.addEventListener('click', () =>{
 
     if(footer_container.classList.contains('footer_container_theme_light')){
         footer_container.classList.remove('footer_container_theme_light')
+    }
+
+    if(ganador_div_theme.classList.contains('ganador_div_theme_light')){
+        ganador_div_theme.classList.remove('ganador_div_theme_light')
     }
 
 })
