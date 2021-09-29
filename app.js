@@ -110,8 +110,6 @@ app.get('/',  (req, res) =>{
 
                 // const toParse = body[0];
                 
-
-                
             }else{
                 console.log('Error en la consulta')
             }
@@ -129,15 +127,10 @@ app.get('/',  (req, res) =>{
     
 })
 
-
-
 // Error 404
 app.use((req, res, next) =>{
     res.status(404).end('Error 404')
 })
-
-
-
 
 app.listen(port, () =>{
     console.log(`Servidor iniciado en el puerto ${port}`)

@@ -49,11 +49,7 @@ router.get('/', (req, res) =>{
         // console.log(name)
     }
 */
-
 })
-
-
-
 
 module.exports = router;
 
