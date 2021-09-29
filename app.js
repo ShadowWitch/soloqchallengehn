@@ -31,6 +31,30 @@ const participantes = [
         profileIconId: 10,
         revisionDate: 1620616930000,
         summonerLevel: 520,
+    },
+    {
+        jugador: "Menguel",
+        rol: "adc",
+        opgg: "https://lan.op.gg/summoner/userName=nosoym4nca",
+        id: "RjcWa4tEqEIOo8MtOTV6xQK0Zsj7_Hc5X_hiKCEe0oWfV2w",
+        accountId: "hzcKfdD6hsbAJ8V6E892SQm7FQRslQihMy4NRof_UZN4GW2yElS5JpDc",
+        puuid: "9EKinGyi5Q3KywjmVVBOS6ClIuFlLyRA6L-oOuX3f7weEA4OGqRnjGvPea8X0yURu0ra10VjkWaoIA",
+        name: "Nosoym4nca",
+        profileIconId: 4022,
+        revisionDate: 1632417047000,
+        summonerLevel: 175
+    },
+    {
+        jugador: "Shadow",
+        rol: "jgl",
+        opgg: "https://lan.op.gg/summoner/userName=Fallen%20IV%20Jr",
+        id: "1UAiWEuJloZFYZCb4yoh3nW9mcWKv9muyJEEdLBToObkvsU",
+        accountId: "s7AJo8Ob3C_ng3f3KQOLZirG__OZ19cTlkqP2omHNqaKQywz3-2XXy4p",
+        puuid: "vsiF_qXkzftt92Dn2fKBRdmSR6lO3lhMDZVCx8UCMKqt0EfSs1qnZaz26jKa4us3stNVtV3JrnGGug",
+        name: "Fallen IV Jr",
+        profileIconId: 3795,
+        revisionDate: 1628639456000,
+        summonerLevel: 45
     }
 ]
 
