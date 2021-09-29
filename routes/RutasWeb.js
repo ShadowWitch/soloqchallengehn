@@ -31,7 +31,7 @@ const participantes = [
 router.get('/', (req, res) =>{
 
     request({
-        url: `https://la1.api.riotgames.com/lol/league/v4/entries/by-summoner/l7vvQ8liJhwZx7AjsxRmGzy8qtymarI2FLkpZaiGTK7kpQ?api_key=RGAPI-e7ea9ca3-1857-4346-b11d-1272c8c75513`,
+        url: `https://la1.api.riotgames.com/lol/league/v4/entries/by-summoner/l7vvQ8liJhwZx7AjsxRmGzy8qtymarI2FLkpZaiGTK7kpQ?api_key=${apiKey}`,
         json: true,
     }, (error, respuesta, body) => {
         if(!error && respuesta.statusCode == 200){
