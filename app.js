@@ -32,7 +32,6 @@ const participantes = [
         revisionDate: 1620616930000,
         summonerLevel: 520,
     }
-    
 ]
 
 
