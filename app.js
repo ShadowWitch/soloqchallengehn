@@ -18,46 +18,92 @@ require('dotenv').config()
 const apiKey = process.env.APIKEY;
 const port = process.env.PORT || 3000;
 
-
 const participantes = [
     {
-        jugador: "Jorge Reyes",
-        rol: "sup",
-        opgg: "https://lan.op.gg/summoner/userName=hagert",
-        id: 'El3DwxD3xOCu_pX93-tl_K0mGcurcQ2SEMptsx8dTG1ZqA',
-        accountId: '7bEukfh53fVICAXa15j1UAcdt2jNOi4uxxMf4d1nlS1TkBA',
-        puuid: 'Naf3XLEpYKY-2d545hlXX9UeFfE7ZxgzTbbu6tIoH3-wJuM_WniAc1p8icl9QX73adFSbBzvWMp77w',
-        name: 'hagert',
-        profileIconId: 10,
-        revisionDate: 1620616930000,
-        summonerLevel: 520,
+        jugador: "Desconocido",
+        rol: 'jgl',
+        opgg: 'https://lan.op.gg/summoner/userName=l+CrisTG+l+',
+        id: "W5fTve7lzXTUiqOLk29fWVA6UdpxwxC1Mxva0LHZQgiiXaA",
+        accountId: "vfWWjEop3F4c3jZweHFQgg8VukqU06xDECDqs5wJS_ozeG_k0-LkHgrX",
+        puuid: "N41t3JDgXRnyAkb4K0mUThh_v8ZxEY2_vPCiWox2RMSRxr4WvHgkz_8umykk9Hq-cv2r_-slyKOoUg",
+        name: "l CrisTG l ",
+        profileIconId: 3367,
+        revisionDate: 1642293258054,
+        summonerLevel: 62
     },
     {
-        jugador: "Menguel",
-        rol: "adc",
-        opgg: "https://lan.op.gg/summoner/userName=nosoym4nca",
-        id: "RjcWa4tEqEIOo8MtOTV6xQK0Zsj7_Hc5X_hiKCEe0oWfV2w",
-        accountId: "hzcKfdD6hsbAJ8V6E892SQm7FQRslQihMy4NRof_UZN4GW2yElS5JpDc",
-        puuid: "9EKinGyi5Q3KywjmVVBOS6ClIuFlLyRA6L-oOuX3f7weEA4OGqRnjGvPea8X0yURu0ra10VjkWaoIA",
-        name: "Nosoym4nca",
-        profileIconId: 4022,
-        revisionDate: 1632417047000,
-        summonerLevel: 175
+        jugador: "Desconocido",
+        rol: 'mid',
+        opgg: 'https://lan.op.gg/summoner/userName=FBGG+MurilloSama',
+        id: "caJGhxpN5xVwfEOaZY67KKeV52o3Tof3UTRhS99YaZUJ",
+        accountId: "IvLreDgtN7-y_caNcoIWT6u7ozCqIMqS6KHDPHODNh1C258",
+        puuid: "qOH2H6w_g1do5TvkdL7WIVE757X5zbdfP5M4RDGiEaqgtjlg807b-ymOddLFKNr2ajDBF_sXkSG5bA",
+        name: "FBGG MurilloSama",
+        profileIconId: 3817,
+        revisionDate: 1641934173000,
+        summonerLevel: 158
     },
     {
-        jugador: "Shadow",
-        rol: "jgl",
-        opgg: "https://lan.op.gg/summoner/userName=Fallen%20IV%20Jr",
-        id: "1UAiWEuJloZFYZCb4yoh3nW9mcWKv9muyJEEdLBToObkvsU",
-        accountId: "s7AJo8Ob3C_ng3f3KQOLZirG__OZ19cTlkqP2omHNqaKQywz3-2XXy4p",
-        puuid: "vsiF_qXkzftt92Dn2fKBRdmSR6lO3lhMDZVCx8UCMKqt0EfSs1qnZaz26jKa4us3stNVtV3JrnGGug",
-        name: "Fallen IV Jr",
-        profileIconId: 3795,
-        revisionDate: 1628639456000,
-        summonerLevel: 45
+        jugador: "Desconocido",
+        rol: 'adc',
+        opgg: 'https://lan.op.gg/summoner/userName=GOT+Catan',
+        id: "Ck77LA-9r87xHZZ8-cWBux6yJKJgEjOCOavDO54f5XCNKRs",
+        accountId: "Iq60zl_Wr1k_teoxnVZnvoNYAnw7p1ZT8zfhjKSwYSu3fRw",
+        puuid: "-T9zs_x6X5tyJRScA6yKuOhQqAHp08JR_m1foNCJCpgz2Kwy446kfvxbC6DDwW8BsfYyoadtGsTjwg",
+        name: "GOT Catan",
+        profileIconId: 3230,
+        revisionDate: 1642177551000,
+        summonerLevel: 434
+    },
+    {
+        jugador: "Desconocido",
+        rol: 'adc',
+        opgg: 'https://lan.op.gg/summoner/userName=Seik',
+        id: "VRiwhSK7TjBcU2F_HJIqniWLNH_3wBOdCz_rJquEBsF1",
+        accountId: "mYVjz7FxZp8q8wdEqG3WTN4O8jZCrcJJVE0LLo34HXBRHRY",
+        puuid: "dbzYlqwH1GywnkP67EAR9qrlVMXHPQfWGggEV8tr838E7GZLdPVNI2SvnwJBdybEpol3tTvc4xee3Q",
+        name: "Seik",
+        profileIconId: 3329,
+        revisionDate: 1641936903000,
+        summonerLevel: 378
+    },
+    {
+        jugador: "Desconocido",
+        rol: 'sup',
+        opgg: 'https://lan.op.gg/summoner/userName=Steve',
+        id: "S9xaF2xDgcAi9404eepVGU_dEPN9S-r_wPqWpDIGBIe5gw0",
+        accountId: "QObFfrLeEviVNOo_2EKVC7ehv72GayJxUCOZVc5VUKRWHFazCNT58mzE",
+        puuid: "GmO5C4e9Ak_sR1CEtVOxZfmflw4nBAMi_pQEIKjZk8T5wGV0Kev0rQgOaJdJ8pii9PgRFJkHR5ZfhA",
+        name: "Steve",
+        profileIconId: 3458,
+        revisionDate: 1642298719110,
+        summonerLevel: 69
+    },
+    {
+        jugador: "Desconocido",
+        rol: 'sup',
+        opgg: 'https://lan.op.gg/summoner/userName=blacks',
+        id: "NrDnYSB3NR7D7shVp4lGJ1t9ipmgY0SVxBhgXTDRkbrtE_l6eufWygDdLA",
+        accountId: "BYZ76cJcE--DYdXntSm0Lfoe2dz_0drryfZgZFQfh9GnbwH7iYZl8S9A",
+        puuid: "TYClgzZ2abydsubQ2lXhxYew2MFXVjQnWKyDZtXtROjQuSA0l7zo7IKqQZ9paQaNMOxuR_otch2FcA",
+        name: "blacks",
+        profileIconId: 3212,
+        revisionDate: 1642087366000,
+        summonerLevel: 34
+    },
+    {
+        jugador: "Desconocido",
+        rol: 'adc',
+        opgg: 'https://lan.op.gg/summoner/userName=RisilexTV',
+        id: "zRVvAMDc36eZ6RER2GUY-QSpTk5G2vqSIcY-Wa-zfTZFPYc",
+        accountId: "ggMr1wuBC3RytNYvugzzMIIT1Fja_kr5e7UcEp1m4NKD9CbuZ53FsTSL",
+        puuid: "qpBJdWCgud8MceEFtODNpXCO26-aNRPTBtxnkUpe3Sw8SzUQwE8CkCBkSHxVwlvfgjQ5FpdiHHH9kA",
+        name: "RisilexTV",
+        profileIconId: 3934,
+        revisionDate: 1642111274000,
+        summonerLevel: 319
     }
 ]
-
 
 // Middlewares
 app.get('/',  (req, res) =>{
@@ -65,7 +111,7 @@ app.get('/',  (req, res) =>{
     const resultado_datos = [];
 
     for (const nick_name of participantes) {
-        const {id, name, profileIconId, summonerLevel, jugador, rol, opgg} = nick_name;
+        const {id, name, profileIconId, accountId, summonerLevel, jugador, rol, opgg} = nick_name;
         // console.log(id)
         // console.log(name)
 
@@ -96,7 +142,6 @@ app.get('/',  (req, res) =>{
                     })
                 }
 
-
                 if(body[0].queueType == "RANKED_SOLO_5x5"){ // En caso de que encuentre que es "SoloQ"
                     // const toParse = body[0]; // Esto es para corregir el Bug ya que algunas veces se solicitan al revez los datos de la API (osea solicita primero flex o soloQ)
                     // console.log(body[0].summonerName)
@@ -107,11 +152,10 @@ app.get('/',  (req, res) =>{
                     const toParse = body[1]
                     bugCorregirElosSoloQFlex(toParse)
                 }
-
                 // const toParse = body[0];
                 
             }else{
-                console.log('Error en la consulta')
+                console.log('Error en la consultassss')
             }
         })
     }

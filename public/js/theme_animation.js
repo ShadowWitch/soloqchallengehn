@@ -9,7 +9,6 @@ const table = document.getElementById('table')
 const body = document.getElementById('body')
 
 const footer_container = document.getElementById('footer_container')
-
 const ganador_div_theme = document.getElementById('ganador_div')
 
 btn_sun.addEventListener('click', () =>{
@@ -21,7 +20,6 @@ btn_sun.addEventListener('click', () =>{
     if(!body.classList.contains('body_theme_light')){
         body.classList.add('body_theme_light')
     }
-
 
     // Elementos del menu
     const elemento_1 = navbar_container.children[1].children[1];
@@ -51,8 +49,6 @@ btn_sun.addEventListener('click', () =>{
     if(!ganador_div_theme.classList.contains('ganador_div_theme_light')){
         ganador_div_theme.classList.add('ganador_div_theme_light')
     }
-
-
 })
 
 btn_moon.addEventListener('click', () =>{
